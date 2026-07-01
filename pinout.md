@@ -1,0 +1,23 @@
+Motors
+M1-PA0
+M2-PA1
+M3-PA2
+M4-PA3
+
+Uarts
+1.Tx-
+  Rx-
+2.Tx-
+  Rx-
+3.Tx-
+  Rx-
+4.Tx-
+  Rx-
+5.Tx-
+  Rx-
+6.Tx-
+  Rx-
+7.Tx-
+  Rx-
+8.Tx-
+  Rx-
