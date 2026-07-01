@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 61.595 20.955)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ef17a2a-7a06-4210-b586-4649e1d53735")
+		(property "Sheetname" "imu&baro"
+			(at 61.595 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu&baro.kicad_sch"
+			(at 61.595 31.6996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "h7"
+				(path "/521e8535-7092-4752-992a-adc9653ebbe6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.115 20.955)
 		(size 17.78 10.16)
 		(exclude_from_sim no)
