@@ -40,8 +40,13 @@ This can be powered through external 5v bec from the esc's or any other 5v power
 U can upload the [gerber](production/h7.zip) to the JLCPCB and select 1oz ENIG and 1oz copper for inner layer
 For the assembly we only need the front side to be assembled so we can choose that and then upload the [bom](production/bom.csv) and [designator](production/designators.csv) files to get a quote on the bom and u can order the project
 
-But if u want to hand assmeble the whole thing u can also do that by using [Interactive BOM](h7/bom/ibom.html)
-
 ![alt text](assets/jlcpcb.png)
 
 ![alt text](assets/final-cost.png)
+
+But if u want to hand assmeble the whole thing u can also do that by using [Interactive BOM](h7/bom/ibom.html)
+It lists all the components and u can select what all part u have sourced and what all parts are needed to be sourced and what u have placed and what not u have placed on the board
+
+### USAGE OF AI
+
+the ai was used to create [pinout](pinout.md) i copied the hwdef from ardupilot github repo and used ai to create a pinout for me so its easier for me to update things in kicad
