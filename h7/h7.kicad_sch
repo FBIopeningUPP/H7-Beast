@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 127 20.955)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27321069-5bec-4a7e-8ea6-14f16480dfee")
+		(property "Sheetname" "connector1"
+			(at 127 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector1.kicad_sch"
+			(at 127 31.6996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "h7"
+				(path "/521e8535-7092-4752-992a-adc9653ebbe6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 61.595 20.955)
 		(size 17.78 10.16)
 		(exclude_from_sim no)
@@ -43,6 +85,48 @@
 			(project "h7"
 				(path "/521e8535-7092-4752-992a-adc9653ebbe6"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 20.955)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba2a9343-386d-44d1-a2e8-4fe1eabd958c")
+		(property "Sheetname" "power"
+			(at 95.25 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 95.25 31.6996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "h7"
+				(path "/521e8535-7092-4752-992a-adc9653ebbe6"
+					(page "4")
 				)
 			)
 		)

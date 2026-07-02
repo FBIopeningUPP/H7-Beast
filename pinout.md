@@ -74,6 +74,7 @@ Chip select / device pins:
 - IMU3_CS: PC13
 - EXT_CS1: PD4
 - EXT_CS2: PE2
+- EXT_CS3: PE15
 
 ## IMU / Gyro Devices
 
@@ -175,7 +176,7 @@ When naming connectors or footprints in KiCad, these are the most useful nets to
 - IMU1 SPI: PA5, PA6, PD7, PC15
 - IMU2 / IMU3 SPI: PE12, PE13, PE14, PE11, PC13
 - OSD SPI: PB15, PB14, PB13, PB12
-- External SPI3: PB3, PB4, PB5, PD4, PE2
+- External SPI3: PB3, PB4, PB5, PD4, PE2, PE15
 - UARTs: PA9/PA10, PD5/PD6, PD8/PD9, PB9/PB8, PC6/PC7, PE8/PE7, PE1/PE0
 - I2C: PB6/PB7, PB10/PB11
 - CAN: PD0/PD1/PD3
